@@ -19,10 +19,15 @@ const router = createRouter({
       component: () => import('../views/VtestAndVmodel.vue')
     },
     {
-      // path:'/test',
-      // name:'/test',
-      // component:()=>import('../views/TestPage.vue')
-    }
+      path: '/vfor',
+      name: 'vfor',
+      component: () => import('../views/vfor.vue')
+    },
+    {
+      path: '/Von',
+      name: 'Von',
+      component: () => import('../views/Von.vue')
+    },
   ]
 })
 
